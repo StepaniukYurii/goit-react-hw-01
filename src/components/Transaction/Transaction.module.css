@@ -1,0 +1,23 @@
+.transaction {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.transaction th,
+.transaction td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+.transaction th,
+.transaction td,
+.transaction tr {
+  text-align: center;
+}
+.transaction th {
+  color: rgb(255, 255, 255);
+  background-color: #686868;
+}
+.transaction tbody tr:nth-child(even) {
+  background-color: rgb(206, 206, 206);
+}
